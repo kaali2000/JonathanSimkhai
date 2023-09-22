@@ -1,0 +1,61 @@
+.nav-link {
+    font-size: 0.8rem;
+}
+.card-title {
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+.tab-content>.active {
+    line-height: 1.3rem;
+}
+.card-title h5 {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.thumbNailImg {
+    border: 1px solid #666666;
+    border-radius: 4px;
+    width: 75px;
+    height: 75px;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+}
+.child1 {
+    width: 50%;
+    text-align: left;
+}
+.child2 {
+    width: 50%;
+    text-align: right;
+}
+.rowSize {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.column {
+    flex: 25%;
+    padding: 20px;
+}
+.button {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+.button1 {border-radius: 50px;}
